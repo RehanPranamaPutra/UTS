@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E95322"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120sp"
+            app:srcCompat="@drawable/group_2702" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="70sp"
+            android:text="Lorem ipsun dolor sit amet, consectetur adipicsing elit. sed do eiusmod"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="80sp"
+            android:layout_marginLeft="80sp"
+            android:layout_marginRight="80sp"
+            android:backgroundTint="#F5CB58"
+            android:textColor="#E95322"/>
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="80sp"
+            android:layout_marginRight="80sp"
+            android:backgroundTint="#F3E9B5"
+            android:textColor=" #E95322"/>
+
+    </LinearLayout>
+</RelativeLayout>
